@@ -10,7 +10,7 @@ namespace FirstAbstract
     {
         public override void Eat()
         {
-            Console.WriteLine("Eating");
+            Console.WriteLine("Animal is Eating");
         }
     }
 }
