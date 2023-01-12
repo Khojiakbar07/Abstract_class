@@ -12,7 +12,7 @@ namespace FirstAbstract
         {
             Dog dog = new Dog();
             dog.SetName(Console.ReadLine());
-            Console.ReadLine();
+            Console.WriteLine("----------------");
             Console.WriteLine(dog.GetName());
             dog.Eat();
         }
